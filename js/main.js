@@ -10,16 +10,22 @@ var nome = prompt("Qual seu nome?");
             switch(escolha){
                 case 1:
                     ver_saldo();
+			break;
                 case 2:
                     ver_extrato();
+			 break;
                 case 3:
                     fazer_saque();
+			break;
                 case 4: 
                     fazer_deposito();
+			break;
                 case 5:
                     fazer_transferencia();
+			break;
                 case 6:
                     sair();
+			break;
             }
 		}	
         
